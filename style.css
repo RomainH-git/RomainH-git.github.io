@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #72b9ab;
 }
 
 body {
@@ -53,11 +53,12 @@ p, li {
 nav, article, aside, footer {
   background-color: white;
   padding: 1%;
+  border-radius: 8px;
 }
 
 nav {
   height: 50px;
-  background-color: #ff80ff;
+  background-color: #33ffd7;
   display: flex;
   margin-bottom: 10px;
 }
@@ -121,7 +122,7 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #ff80ff;
+  background-color: #33ffd7;
 }
 
 aside li {
@@ -130,4 +131,13 @@ aside li {
 
 footer {
   margin-top: 10px;
+}
+
+.container-center{
+  display: flex;
+  justify-content: center;
+}
+
+.title-article{
+  font-size: 3rem;
 }
